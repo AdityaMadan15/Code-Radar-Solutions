@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n;
+    float n;
     scnaf("%f", &n);
     printf(n);
 }
