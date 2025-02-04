@@ -2,5 +2,5 @@
 int main(){
     float n;
     scnaf("%f", &n);
-    printf(n);
+    printf("%f", n);
 }
