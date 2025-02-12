@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main(){
-    char grade;
-    sacnf("%c", &grade);
-    if(grade >= 90){
+    char c;
+    sacnf("%c", &c);
+    if(c >= 90){
         printf("A");
     }
-    else if(grade >= 80 && grade < 90){
+    else if(c >= 80 && c < 90){
         printf("B");
     }
-    else if(grade >= 70 && grade < 80){
+    else if(c >= 70 && c < 80){
         printf("C");
     }
-    else if(grade >= 60 && garde < 70){
+    else if(c >= 60 && c < 70){
         printf("D");
     }
     else{
