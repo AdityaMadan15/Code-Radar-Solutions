@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     char c;
-    sacnf("%c", &c);
+    scanf("%c", &c);
     if(c >= 90){
         printf("A");
     }
